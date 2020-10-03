@@ -1,0 +1,1109 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs" Inherits="ProyectoAerolinea.Formularios.Compartidos.Principal" %>
+
+<!DOCTYPE html>
+<html lang="en" class="cufon-active cufon-ready">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Aerolinea</title>
+    <link rel="stylesheet" href="../../Contenido/CSS/reset.css" type="text/css" media="all">
+    <link rel="stylesheet" href="../../Contenido/CSS/layout.css" type="text/css" media="all">
+    <link rel="stylesheet" href="../../Contenido/CSS/style.css" type="text/css" media="all">
+
+    <script src="../../Contenido/Scripts/jquery-1.5.2.js"></script>
+    <script src="../../Contenido/Scripts/cufon-yui.js"></script>
+    <style type="text/css">
+        cufon {
+            text-indent: 0 !important;
+        }
+
+        @media screen,projection {
+            cufon {
+                display: inline !important;
+                display: inline-block !important;
+                position: relative !important;
+                vertical-align: middle !important;
+                font-size: 1px !important;
+                line-height: 1px !important;
+            }
+
+                cufon cufontext {
+                    display: -moz-inline-box !important;
+                    display: inline-block !important;
+                    width: 0 !important;
+                    height: 0 !important;
+                    overflow: hidden !important;
+                    text-indent: -10000in !important;
+                }
+
+                cufon canvas {
+                    position: relative !important;
+                }
+        }
+
+        @media print {
+            cufon {
+                padding: 0 !important;
+            }
+
+                cufon canvas {
+                    display: none !important;
+                }
+        }
+    </style>
+    <script type="text/javascript" src="../../Contenido/Scripts/cufon-replace.js"></script>
+    <script type="text/javascript" src="../../Contenido/Scripts/Cabin_400.font.js"></script>
+    <script type="text/javascript" src="../../Contenido/Scripts/tabs.js"></script>
+    <script type="text/javascript" src="../../Contenido/Scripts/jquery.jqtransform.js"></script>
+    <script type="text/javascript" src="../../Contenido/Scripts/jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript" src="../../Contenido/Scripts/atooltip.jquery.js"></script>
+    <script type="text/javascript" src="../../Contenido/Scripts/script.js"></script>
+    <!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5.js"></script>
+<style type="text/css">.main, .tabs ul.nav a, .content, .button1, .box1, .top { behavior:url("../js/PIE.htc")}</style>
+<![endif]-->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="page3">
+    <form id="form1" runat="server">
+        <div class="main">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <div class="main">
+        <header>
+            <div class="wrapper">
+                <h1><a href="index.html" id="logo">Aerolinea Viaje Seguro</a></h1>
+                <span id="slogan">
+                    <cufon class="cufon cufon-canvas" alt="Rapido, " style="width: 38px; height: 20px;"><canvas width="57" height="26" style="width: 57px; height: 26px; top: -3px; left: -1px;"></canvas><cufontext>Rapido, </cufontext></cufon>
+                    <cufon class="cufon cufon-canvas" alt="Frecuente " style="width: 73px; height: 20px;"><canvas width="92" height="26" style="width: 92px; height: 26px; top: -3px; left: -1px;"></canvas><cufontext>Frecuente </cufontext></cufon>
+                    <cufon class="cufon cufon-canvas" alt="&amp; " style="width: 16px; height: 20px;"><canvas width="34" height="26" style="width: 34px; height: 26px; top: -3px; left: -1px;"></canvas><cufontext>&amp; </cufontext></cufon>
+                    <cufon class="cufon cufon-canvas" alt="Seguridad " style="width: 39px; height: 20px;"><canvas width="57" height="26" style="width: 57px; height: 26px; top: -3px; left: -1px;"></canvas><cufontext>Seguro </cufontext></cufon>
+                    <cufon class="cufon cufon-canvas" alt="Vuelos" style="width: 50px; height: 20px;"><canvas width="64" height="26" style="width: 64px; height: 26px; top: -3px; left: -1px;"></canvas><cufontext>Vuelos</cufontext></cufon>
+                </span>
+                <nav id="top_nav">
+                    <ul>
+                        <li><a href="index.html" class="nav1">Casa</a></li>
+                        <li><a href="#" class="nav2">Sistema</a></li>
+                        <li><a href="contacts.html" class="nav3">Contactos</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html"><span><span>
+                        <cufon class="cufon cufon-canvas" alt="Acerca de" style="width: 64px; height: 26px;"><canvas width="83" height="32" style="width: 83px; height: 32px; top: -4px; left: -1px;"></canvas><cufontext>Acerca de</cufontext></cufon>
+                    </span></span></a></li>
+                    <li><a href="offers.html"><span><span>
+                        <cufon class="cufon cufon-canvas" alt="Reserva" style="width: 65px; height: 26px;"><canvas width="82" height="32" style="width: 82px; height: 32px; top: -4px; left: -1px;"></canvas><cufontext>Ofertas</cufontext></cufon>
+                    </span></span></a></li>
+                    <li id="menu_active"><a href="book.html"><span><span>
+                        <cufon class="cufon cufon-canvas" alt="Consultas" style="width: 53px; height: 26px;"><canvas width="70" height="32" style="width: 70px; height: 32px; top: -4px; left: -1px;"></canvas><cufontext>Book</cufontext></cufon>
+                    </span></span></a></li>
+                    <li><a href="services.html"><span><span>
+                        <cufon class="cufon cufon-canvas" alt="Servicios" style="width: 85px; height: 26px;"><canvas width="102" height="32" style="width: 102px; height: 32px; top: -4px; left: -1px;"></canvas><cufontext>Servicios</cufontext></cufon>
+                    </span></span></a></li>
+                    <li><a href="safety.html"><span><span>
+                        <cufon class="cufon cufon-canvas" alt="Seguridad" style="width: 67px; height: 26px;"><canvas width="82" height="32" style="width: 82px; height: 32px; top: -4px; left: -1px;"></canvas><cufontext>Seguridad</cufontext></cufon>
+                    </span></span></a></li>
+                    <li class="end"><a href="contacts.html"><span><span>
+                        <cufon class="cufon cufon-canvas" alt="Contactos" style="width: 91px; height: 26px;"><canvas width="108" height="32" style="width: 108px; height: 32px; top: -4px; left: -1px;"></canvas><cufontext>Contactos</cufontext></cufon>
+                    </span></span></a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="content">
+            <div class="wrapper pad1">
+                <article class="col1">
+                    <div class="box1">
+                        <h2 class="top">
+                            <cufon class="cufon cufon-canvas" alt="Ofertas " style="width: 53px; height: 20px;"><canvas width="70" height="25" style="width: 70px; height: 25px; top: -3px; left: -1px;"></canvas><cufontext>Ofertas </cufontext></cufon>
+                            <cufon class="cufon cufon-canvas" alt="de " style="width: 20px; height: 20px;"><canvas width="37" height="25" style="width: 37px; height: 25px; top: -3px; left: -1px;"></canvas><cufontext>de</cufontext></cufon>
+                            <cufon class="cufon cufon-canvas" alt="la" style="width: 30px; height: 20px;"><canvas width="47" height="25" style="width: 47px; height: 25px; top: -3px; left: -1px;"></canvas><cufontext>la</cufontext></cufon>
+                            <cufon class="cufon cufon-canvas" alt="Semana" style="width: 46px; height: 20px;"><canvas width="59" height="25" style="width: 59px; height: 25px; top: -3px; left: -1px;"></canvas><cufontext>Semana</cufontext></cufon>
+                        </h2>
+                        <div class="pad">
+                            <strong>USA</strong><br>
+                            <ul class="pad_bot1 list1">
+                                <li><span class="right color1">from GBP 143.-</span><a href="book2.html">NEW YORK</a></li>
+                            </ul>
+                            <strong>España</strong><br>
+                            <ul class="pad_bot1 list1">
+                                <li><span class="right color1">from GBP 176.-</span><a href="book2.html">Madrid</a></li>
+                                <li><span class="right color1">from GBP 109.-</span><a href="book2.html">Cordoba</a></li>
+                            </ul>
+                            <strong>Londres</strong><br>
+                            <ul class="pad_bot2 list1">
+                                <li><span class="right color1">from GBP 100.-</span><a href="book2.html"></a></li>
+                                <li><span class="right color1">from GBP 112.-</span><a href="book2.html">Heathrow</a></li>
+                                <li><span class="right color1">from GBP 88.-</span><a href="book2.html">Ciudad de Londres</a></li>
+                            </ul>
+                            <strong>Manchester</strong><br>
+                            <ul class="pad_bot2 list1">
+                                <li><span class="right color1">from GBP 97.-</span><a href="book2.html">Manchester</a></li>
+                                <%--<li><span class="right color1">from GBP 103.-</span><a href="book2.html">Zurich</a></li>--%>
+                            </ul>
+                            <strong>Edinburgh</strong><br>
+                            <ul class="pad_bot2 list1">
+                                <li><span class="right color1">from GBP 165.-</span><a href="book2.html">Zurich</a></li>
+                            </ul>
+                            <strong>Birmingham</strong><br>
+                            <ul class="pad_bot1 list1">
+                                <li><span class="right color1">from GBP 143.-</span><a href="book2.html">Zurich</a></li>
+                            </ul>
+                            <strong>London (LCY)</strong><br>
+                            <ul class="pad_bot1 list1">
+                                <li><span class="right color1">from GBP 176.-</span><a href="book2.html">Geneva</a></li>
+                                <li><span class="right color1">from GBP 109.-</span><a href="book2.html">Zurich</a></li>
+                            </ul>
+                            <strong>London (LHR)</strong><br>
+                            <ul class="pad_bot2 list1">
+                                <li><span class="right color1">from GBP 100.-</span><a href="book2.html">Geneva</a></li>
+                                <li><span class="right color1">from GBP 112.-</span><a href="book2.html">Zurich</a></li>
+                                <li><span class="right color1">from GBP 88.-</span><a href="book2.html">Basel</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+                <article class="col2">
+                    <div class="tabs2">
+                        <ul class="nav">
+                            <li class="selected"><a href="#Flight">Vuelos</a></li>
+                            <li><a href="#Hotel">Hotel</a></li>
+                            <li class="end"><a href="#Rental">Rutas</a></li>
+                        </ul>
+                        <div class="content">
+                            <div class="tab-content" id="Flight">
+                                <form id="form_5" action="#" class="form_5 jqtransformdone" method="post">
+                                    <div>
+                                        <div class="radio">
+                                            <div class="wrapper">
+                                                <span class="jqTransformRadioWrapper"><a href="#" class="jqTransformRadio jqTransformChecked" rel="name1"></a>
+                                                    <input type="radio" name="name1" checked="" class="jqTransformHidden"></span>
+                                                <span class="left">Precios bajos</span>
+                                                <span class="jqTransformRadioWrapper"><a href="#" class="jqTransformRadio" rel="name1"></a>
+                                                    <input type="radio" name="name1" class="jqTransformHidden"></span>
+                                                <span class="left">Mostras vuelos</span>
+                                            </div>
+                                        </div>
+                                        <div class="pad">
+                                            <div class="wrapper under">
+                                                <div class="col1">
+                                                    <div class="row">
+                                                        <span class="left">Desde</span>
+                                                        <div class="jqTransformInputWrapper jqTransformSafari" style="width: 210px;">
+                                                            <div class="jqTransformInputInner">
+                                                                <div>
+                                                                    <input type="text" class="input jqtranformdone jqTransformInput" style="width: 144px;">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <a href="#" class="help"></a>
+                                                    </div>
+                                                    <div class="row">
+                                                        <span class="left">Hasta</span>
+                                                        <div class="jqTransformInputWrapper jqTransformSafari" style="width: 210px;">
+                                                            <div class="jqTransformInputInner">
+                                                                <div>
+                                                                    <input type="text" class="input jqtranformdone jqTransformInput" style="width: 144px;">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <a href="#" class="help"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="check_box">
+                                                    <span class="jqTransformCheckboxWrapper"><a href="#" class="jqTransformCheckbox"></a>
+                                                        <input type="checkbox" class="jqTransformHidden"></span>
+                                                    <span>One way</span> <a href="#" class="help"></a>
+                                                </div>
+                                                <div class="check_box">
+                                                    <span class="jqTransformCheckboxWrapper"><a href="#" class="jqTransformCheckbox"></a>
+                                                        <input type="checkbox" class="jqTransformHidden"></span>
+                                                    <span>Vuelos Directos</span>
+                                                </div>
+                                            </div>
+                                            <div class="wrapper under">
+                                                <span class="left">Vuelos</span>
+                                                <div class="cols marg_right1">
+                                                    <h6>Vuelo de ida</h6>
+                                                    <div class="row">
+                                                        <div class="jqTransformInputWrapper jqTransformSafari" style="width: 210px;">
+                                                            <div class="jqTransformInputInner">
+                                                                <div>
+                                                                    <input type="text" class="input1 jqtranformdone jqTransformInput" value="03.05.2011" onblur="if(this.value=='') this.value='03.05.2011'" onfocus="if(this.value =='03.05.2011' ) this.value=''" style="width: 98px;">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="jqTransformInputWrapper jqTransformSafari" style="width: 210px;">
+                                                            <div class="jqTransformInputInner">
+                                                                <div>
+                                                                    <input type="text" class="input1 jqtranformdone jqTransformInput" value="+/- 0 Days" onblur="if(this.value=='') this.value='+/- 0 Days'" onfocus="if(this.value =='+/- 0 Days' ) this.value=''" style="width: 98px;">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="marg_top1">
+                                                        <div class="select1">
+                                                            <a href="#" class="marker_left"></a>
+                                                            <div class="jqTransformSelectWrapper" style="z-index: 10; width: 121px;">
+                                                                <div><span style="width: 69px;">May 11</span><a href="#" class="jqTransformSelectOpen"></a></div>
+                                                                <ul style="width: 119px; display: none; visibility: visible; height: 42px; overflow: hidden;">
+                                                                    <li><a href="#" index="0" class="selected">May 11</a></li>
+                                                                    <li><a href="#" index="1">Junio 11</a></li>
+                                                                    <li><a href="#" index="2">Julio 11</a></li>
+                                                                </ul>
+                                                                <select class="jqTransformHidden" style="">
+                                                                    <option>May 11</option>
+                                                                    <option>Junio 11</option>
+                                                                    <option>Julio 11</option>
+                                                                </select>
+                                                            </div>
+                                                            <a href="#" class="marker_right"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="calendar">
+                                                        <ul class="thead">
+                                                            <li>Luns</li>
+                                                            <li>Marts</li>
+                                                            <li>Miercls</li>
+                                                            <li>Juvs</li>
+                                                            <li>Virns</li>
+                                                            <li>Sabd</li>
+                                                            <li>Domgo</li>
+                                                        </ul>
+                                                        <ul class="tbody">
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#">1</a></li>
+                                                            <li><a href="#">2</a></li>
+                                                            <li><a href="#">3</a></li>
+                                                            <li><a href="#">4</a></li>
+                                                            <li><a href="#" class="active">5</a></li>
+                                                            <li><a href="#">6</a></li>
+                                                            <li><a href="#">7</a></li>
+                                                            <li><a href="#">8</a></li>
+                                                            <li><a href="#">9</a></li>
+                                                            <li><a href="#">10</a></li>
+                                                            <li><a href="#">11</a></li>
+                                                            <li><a href="#">12</a></li>
+                                                            <li><a href="#">13</a></li>
+                                                            <li><a href="#">14</a></li>
+                                                            <li><a href="#">15</a></li>
+                                                            <li><a href="#">16</a></li>
+                                                            <li><a href="#">17</a></li>
+                                                            <li><a href="#">18</a></li>
+                                                            <li><a href="#">19</a></li>
+                                                            <li><a href="#">20</a></li>
+                                                            <li><a href="#">21</a></li>
+                                                            <li><a href="#">22</a></li>
+                                                            <li><a href="#">23</a></li>
+                                                            <li><a href="#">24</a></li>
+                                                            <li><a href="#">25</a></li>
+                                                            <li><a href="#">26</a></li>
+                                                            <li><a href="#">27</a></li>
+                                                            <li><a href="#">28</a></li>
+                                                            <li><a href="#">29</a></li>
+                                                            <li><a href="#">30</a></li>
+                                                            <li><a href="#">31</a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="cols">
+                                                    <h5>Vuelo de Ida</h5>
+                                                    <div class="row">
+                                                        <div class="jqTransformInputWrapper jqTransformSafari" style="width: 210px;">
+                                                            <div class="jqTransformInputInner">
+                                                                <div>
+                                                                    <input type="text" class="input1 jqtranformdone jqTransformInput" value="03.05.2011" onblur="if(this.value=='') this.value='03.05.2011'" onfocus="if(this.value =='03.05.2011' ) this.value=''" style="width: 98px;">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="jqTransformInputWrapper jqTransformSafari" style="width: 210px;">
+                                                            <div class="jqTransformInputInner">
+                                                                <div>
+                                                                    <input type="text" class="input1 jqtranformdone jqTransformInput" value="+/- 0 Days" onblur="if(this.value=='') this.value='+/- 0 Days'" onfocus="if(this.value =='+/- 0 Days' ) this.value=''" style="width: 98px;">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="marg_top1">
+                                                        <div class="select1">
+                                                            <a href="#" class="marker_left"></a>
+                                                            <div class="jqTransformSelectWrapper" style="z-index: 9; width: 121px;">
+                                                                <div><span style="width: 69px;">May 11</span><a href="#" class="jqTransformSelectOpen"></a></div>
+                                                                <ul style="width: 119px; display: none; visibility: visible; height: 42px; overflow: hidden;">
+                                                                    <li><a href="#" index="0" class="selected">May 11</a></li>
+                                                                    <li><a href="#" index="1">Junio 11</a></li>
+                                                                    <li><a href="#" index="2">Julio 11</a></li>
+                                                                </ul>
+                                                                <select class="jqTransformHidden" style="">
+                                                                    <option>May 11</option>
+                                                                    <option>Junio 11</option>
+                                                                    <option>Julio 11</option>
+                                                                </select>
+                                                            </div>
+                                                            <a href="#" class="marker_right"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="calendar">
+                                                        <ul class="thead">
+                                                            <li>Luns</li>
+                                                            <li>Marts</li>
+                                                            <li>Miercls</li>
+                                                            <li>Juvs</li>
+                                                            <li>Virns</li>
+                                                            <li>Sabd</li>
+                                                            <li>Domgo</li>
+                                                        </ul>
+                                                        <ul class="tbody">
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#">1</a></li>
+                                                            <li><a href="#">2</a></li>
+                                                            <li><a href="#">3</a></li>
+                                                            <li><a href="#">4</a></li>
+                                                            <li><a href="#" class="active">5</a></li>
+                                                            <li><a href="#">6</a></li>
+                                                            <li><a href="#">7</a></li>
+                                                            <li><a href="#">8</a></li>
+                                                            <li><a href="#">9</a></li>
+                                                            <li><a href="#">10</a></li>
+                                                            <li><a href="#">11</a></li>
+                                                            <li><a href="#">12</a></li>
+                                                            <li><a href="#">13</a></li>
+                                                            <li><a href="#">14</a></li>
+                                                            <li><a href="#">15</a></li>
+                                                            <li><a href="#">16</a></li>
+                                                            <li><a href="#">17</a></li>
+                                                            <li><a href="#">18</a></li>
+                                                            <li><a href="#">19</a></li>
+                                                            <li><a href="#">20</a></li>
+                                                            <li><a href="#">21</a></li>
+                                                            <li><a href="#">22</a></li>
+                                                            <li><a href="#">23</a></li>
+                                                            <li><a href="#">24</a></li>
+                                                            <li><a href="#">25</a></li>
+                                                            <li><a href="#">26</a></li>
+                                                            <li><a href="#">27</a></li>
+                                                            <li><a href="#">28</a></li>
+                                                            <li><a href="#">29</a></li>
+                                                            <li><a href="#">30</a></li>
+                                                            <li><a href="#">31</a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="wrapper pad_bot1">
+                                                <span class="left">Pasageros</span>
+                                                <div class="cols marg_right1">
+                                                    <div class="row">
+                                                        <div class="jqTransformInputWrapper jqTransformSafari" style="width: 210px;">
+                                                            <div class="jqTransformInputInner">
+                                                                <div>
+                                                                    <input type="text" class="input2 jqtranformdone jqTransformInput" value="2" onblur="if(this.value=='') this.value='2'" onfocus="if(this.value =='2' ) this.value=''" style="width: 43px;">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <span class="left">Adultos</span> <a href="#" class="help"></a>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="jqTransformInputWrapper jqTransformSafari" style="width: 210px;">
+                                                            <div class="jqTransformInputInner">
+                                                                <div>
+                                                                    <input type="text" class="input2 jqtranformdone jqTransformInput" value="0" onblur="if(this.value=='') this.value='0'" onfocus="if(this.value =='0' ) this.value=''" style="width: 43px;">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <span class="left">Niños</span> <a href="#" class="help"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="cols">
+                                                    <div class="select1">
+                                                        <span class="left">Clases</span>
+                                                        <div class="jqTransformSelectWrapper" style="z-index: 8; width: 121px;">
+                                                            <div><span style="width: 78px;">Economico</span><a href="#" class="jqTransformSelectOpen"></a></div>
+                                                            <ul style="width: 119px; display: none; visibility: visible; height: 14px; overflow: hidden;">
+                                                                <li><a href="#" index="0" class="selected">Economico</a></li>
+                                                            </ul>
+                                                            <select class="jqTransformHidden" style="">
+                                                                <option>Economico</option>
+                                                            </select>
+                                                        </div>
+                                                        <a href="#" class="help"></a>
+                                                    </div>
+                                                    <div class="select1">
+                                                        <span class="left">Aerolinea</span>
+                                                        <div class="jqTransformSelectWrapper" style="z-index: 7; width: 121px;">
+                                                            <div><span style="width: 66px;">Aerolinea</span><a href="#" class="jqTransformSelectOpen"></a></div>
+                                                            <ul style="width: 119px; display: none; visibility: visible; height: 14px; overflow: hidden;">
+                                                                <li><a href="#" index="0" class="selected">Aerolinea</a></li>
+                                                            </ul>
+                                                            <select class="jqTransformHidden" style="">
+                                                                <option>Aerolinea</option>
+                                                            </select>
+                                                        </div>
+                                                        <a href="#" class="help"></a>
+                                                    </div>
+                                                </div>
+                                                <span class="right relative"><a href="#" class="button1"><strong>Buscar</strong></a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-content" id="Hotel" style="display: none;">
+                                <form id="form_6" action="#" class="form_5 jqtransformdone" method="post">
+                                    <div>
+                                        <div class="radio">
+                                            <div class="wrapper">
+                                                <span class="jqTransformRadioWrapper"><a href="#" class="jqTransformRadio jqTransformChecked" rel="name1"></a>
+                                                    <input type="radio" name="name1" checked="" class="jqTransformHidden"></span>
+                                                <span class="left">Motrar Precios</span>
+                                                <span class="jqTransformRadioWrapper"><a href="#" class="jqTransformRadio" rel="name1"></a>
+                                                    <input type="radio" name="name1" class="jqTransformHidden"></span>
+                                                <span class="left">Mostrar Vuelos</span>
+                                            </div>
+                                        </div>
+                                        <div class="pad">
+                                            <div class="wrapper under">
+                                                <div class="col1">
+                                                    <div class="row">
+                                                        <span class="left">Desde</span>
+                                                        <div class="jqTransformInputWrapper jqTransformSafari" style="width: 210px;">
+                                                            <div class="jqTransformInputInner">
+                                                                <div>
+                                                                    <input type="text" class="input jqtranformdone jqTransformInput" style="width: 144px;">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <a href="#" class="help"></a>
+                                                    </div>
+                                                    <div class="row">
+                                                        <span class="left">Hasta</span>
+                                                        <div class="jqTransformInputWrapper jqTransformSafari" style="width: 210px;">
+                                                            <div class="jqTransformInputInner">
+                                                                <div>
+                                                                    <input type="text" class="input jqtranformdone jqTransformInput" style="width: 144px;">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <a href="#" class="help"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="check_box">
+                                                    <span class="jqTransformCheckboxWrapper"><a href="#" class="jqTransformCheckbox"></a>
+                                                        <input type="checkbox" class="jqTransformHidden"></span>
+                                                    <span>One way</span> <a href="#" class="help"></a>
+                                                </div>
+                                                <div class="check_box">
+                                                    <span class="jqTransformCheckboxWrapper"><a href="#" class="jqTransformCheckbox"></a>
+                                                        <input type="checkbox" class="jqTransformHidden"></span>
+                                                    <span>Vuelos Directos</span>
+                                                </div>
+                                            </div>
+                                            <div class="wrapper under">
+                                                <span class="left">Flights</span>
+                                                <div class="cols marg_right1">
+                                                    <h6>Vuelo de ida</h6>
+                                                    <div class="row">
+                                                        <div class="jqTransformInputWrapper jqTransformSafari" style="width: 210px;">
+                                                            <div class="jqTransformInputInner">
+                                                                <div>
+                                                                    <input type="text" class="input1 jqtranformdone jqTransformInput" value="03.05.2011" onblur="if(this.value=='') this.value='03.05.2011'" onfocus="if(this.value =='03.05.2011' ) this.value=''" style="width: 98px;">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="jqTransformInputWrapper jqTransformSafari" style="width: 210px;">
+                                                            <div class="jqTransformInputInner">
+                                                                <div>
+                                                                    <input type="text" class="input1 jqtranformdone jqTransformInput" value="+/- 0 Days" onblur="if(this.value=='') this.value='+/- 0 Days'" onfocus="if(this.value =='+/- 0 Days' ) this.value=''" style="width: 98px;">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="marg_top1">
+                                                        <div class="select1">
+                                                            <a href="#" class="marker_left"></a>
+                                                            <div class="jqTransformSelectWrapper" style="z-index: 10; width: 121px;">
+                                                                <div><span style="width: 69px;">May 11</span><a href="#" class="jqTransformSelectOpen"></a></div>
+                                                                <ul style="width: 119px; display: none; visibility: visible; height: 42px; overflow: hidden;">
+                                                                    <li><a href="#" index="0" class="selected">May 11</a></li>
+                                                                    <li><a href="#" index="1">Junio 11</a></li>
+                                                                    <li><a href="#" index="2">Julio 11</a></li>
+                                                                </ul>
+                                                                <select class="jqTransformHidden" style="">
+                                                                    <option>May 11</option>
+                                                                    <option>Junio 11</option>
+                                                                    <option>Julio 11</option>
+                                                                </select>
+                                                            </div>
+                                                            <a href="#" class="marker_right"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="calendar">
+                                                        <ul class="thead">
+                                                            <li>Luns</li>
+                                                            <li>Marts</li>
+                                                            <li>Miercls</li>
+                                                            <li>Juvs</li>
+                                                            <li>Virns</li>
+                                                            <li>Sabd</li>
+                                                            <li>Domgo</li>
+                                                        </ul>
+                                                        <ul class="tbody">
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#">1</a></li>
+                                                            <li><a href="#">2</a></li>
+                                                            <li><a href="#">3</a></li>
+                                                            <li><a href="#">4</a></li>
+                                                            <li><a href="#" class="active">5</a></li>
+                                                            <li><a href="#">6</a></li>
+                                                            <li><a href="#">7</a></li>
+                                                            <li><a href="#">8</a></li>
+                                                            <li><a href="#">9</a></li>
+                                                            <li><a href="#">10</a></li>
+                                                            <li><a href="#">11</a></li>
+                                                            <li><a href="#">12</a></li>
+                                                            <li><a href="#">13</a></li>
+                                                            <li><a href="#">14</a></li>
+                                                            <li><a href="#">15</a></li>
+                                                            <li><a href="#">16</a></li>
+                                                            <li><a href="#">17</a></li>
+                                                            <li><a href="#">18</a></li>
+                                                            <li><a href="#">19</a></li>
+                                                            <li><a href="#">20</a></li>
+                                                            <li><a href="#">21</a></li>
+                                                            <li><a href="#">22</a></li>
+                                                            <li><a href="#">23</a></li>
+                                                            <li><a href="#">24</a></li>
+                                                            <li><a href="#">25</a></li>
+                                                            <li><a href="#">26</a></li>
+                                                            <li><a href="#">27</a></li>
+                                                            <li><a href="#">28</a></li>
+                                                            <li><a href="#">29</a></li>
+                                                            <li><a href="#">30</a></li>
+                                                            <li><a href="#">31</a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="cols">
+                                                    <h5>Vuelo de ida</h5>
+                                                    <div class="row">
+                                                        <div class="jqTransformInputWrapper jqTransformSafari" style="width: 210px;">
+                                                            <div class="jqTransformInputInner">
+                                                                <div>
+                                                                    <input type="text" class="input1 jqtranformdone jqTransformInput" value="03.05.2011" onblur="if(this.value=='') this.value='03.05.2011'" onfocus="if(this.value =='03.05.2011' ) this.value=''" style="width: 98px;">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="jqTransformInputWrapper jqTransformSafari" style="width: 210px;">
+                                                            <div class="jqTransformInputInner">
+                                                                <div>
+                                                                    <input type="text" class="input1 jqtranformdone jqTransformInput" value="+/- 0 Days" onblur="if(this.value=='') this.value='+/- 0 Days'" onfocus="if(this.value =='+/- 0 Days' ) this.value=''" style="width: 98px;">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="marg_top1">
+                                                        <div class="select1">
+                                                            <a href="#" class="marker_left"></a>
+                                                            <div class="jqTransformSelectWrapper" style="z-index: 9; width: 121px;">
+                                                                <div><span style="width: 69px;">May 11</span><a href="#" class="jqTransformSelectOpen"></a></div>
+                                                                <ul style="width: 119px; display: none; visibility: visible; height: 42px; overflow: hidden;">
+                                                                    <li><a href="#" index="0" class="selected">May 11</a></li>
+                                                                    <li><a href="#" index="1">Junio 11</a></li>
+                                                                    <li><a href="#" index="2">Julio 11</a></li>
+                                                                </ul>
+                                                                <select class="jqTransformHidden" style="">
+                                                                    <option>May 11</option>
+                                                                    <option>Junio 11</option>
+                                                                    <option>Julio 11</option>
+                                                                </select>
+                                                            </div>
+                                                            <a href="#" class="marker_right"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="calendar">
+                                                        <ul class="thead">
+                                                            <li>Luns</li>
+                                                            <li>Marts</li>
+                                                            <li>Miercls</li>
+                                                            <li>Juvs</li>
+                                                            <li>Virns</li>
+                                                            <li>Sabd</li>
+                                                            <li>Domgo</li>
+                                                        </ul>
+                                                        <ul class="tbody">
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#">1</a></li>
+                                                            <li><a href="#">2</a></li>
+                                                            <li><a href="#">3</a></li>
+                                                            <li><a href="#">4</a></li>
+                                                            <li><a href="#" class="active">5</a></li>
+                                                            <li><a href="#">6</a></li>
+                                                            <li><a href="#">7</a></li>
+                                                            <li><a href="#">8</a></li>
+                                                            <li><a href="#">9</a></li>
+                                                            <li><a href="#">10</a></li>
+                                                            <li><a href="#">11</a></li>
+                                                            <li><a href="#">12</a></li>
+                                                            <li><a href="#">13</a></li>
+                                                            <li><a href="#">14</a></li>
+                                                            <li><a href="#">15</a></li>
+                                                            <li><a href="#">16</a></li>
+                                                            <li><a href="#">17</a></li>
+                                                            <li><a href="#">18</a></li>
+                                                            <li><a href="#">19</a></li>
+                                                            <li><a href="#">20</a></li>
+                                                            <li><a href="#">21</a></li>
+                                                            <li><a href="#">22</a></li>
+                                                            <li><a href="#">23</a></li>
+                                                            <li><a href="#">24</a></li>
+                                                            <li><a href="#">25</a></li>
+                                                            <li><a href="#">26</a></li>
+                                                            <li><a href="#">27</a></li>
+                                                            <li><a href="#">28</a></li>
+                                                            <li><a href="#">29</a></li>
+                                                            <li><a href="#">30</a></li>
+                                                            <li><a href="#">31</a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="wrapper pad_bot1">
+                                                <span class="left">Pasageros</span>
+                                                <div class="cols marg_right1">
+                                                    <div class="row">
+                                                        <div class="jqTransformInputWrapper jqTransformSafari" style="width: 210px;">
+                                                            <div class="jqTransformInputInner">
+                                                                <div>
+                                                                    <input type="text" class="input2 jqtranformdone jqTransformInput" value="2" onblur="if(this.value=='') this.value='2'" onfocus="if(this.value =='2' ) this.value=''" style="width: 43px;">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <span class="left">Adultos</span> <a href="#" class="help"></a>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="jqTransformInputWrapper jqTransformSafari" style="width: 210px;">
+                                                            <div class="jqTransformInputInner">
+                                                                <div>
+                                                                    <input type="text" class="input2 jqtranformdone jqTransformInput" value="0" onblur="if(this.value=='') this.value='0'" onfocus="if(this.value =='0' ) this.value=''" style="width: 43px;">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <span class="left">Niños</span> <a href="#" class="help"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="cols">
+                                                    <div class="select1">
+                                                        <span class="left">Clases</span>
+                                                        <div class="jqTransformSelectWrapper" style="z-index: 8; width: 121px;">
+                                                            <div><span style="width: 78px;">Economico</span><a href="#" class="jqTransformSelectOpen"></a></div>
+                                                            <ul style="width: 119px; display: none; visibility: visible; height: 14px; overflow: hidden;">
+                                                                <li><a href="#" index="0" class="selected">Economico</a></li>
+                                                            </ul>
+                                                            <select class="jqTransformHidden" style="">
+                                                                <option>Economico</option>
+                                                            </select>
+                                                        </div>
+                                                        <a href="#" class="help"></a>
+                                                    </div>
+                                                    <div class="select1">
+                                                        <span class="left">Aerolinea</span>
+                                                        <div class="jqTransformSelectWrapper" style="z-index: 7; width: 121px;">
+                                                            <div><span style="width: 66px;">Aerolinea</span><a href="#" class="jqTransformSelectOpen"></a></div>
+                                                            <ul style="width: 119px; display: none; visibility: visible; height: 14px; overflow: hidden;">
+                                                                <li><a href="#" index="0" class="selected">Aerolinea</a></li>
+                                                            </ul>
+                                                            <select class="jqTransformHidden" style="">
+                                                                <option>Aerolinea</option>
+                                                            </select>
+                                                        </div>
+                                                        <a href="#" class="help"></a>
+                                                    </div>
+                                                </div>
+                                                <span class="right relative"><a href="#" class="button1" onclick="document.getElementById('form_6').submit()"><strong>Search</strong></a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-content" id="Rental" style="display: none;">
+                                <form id="form_7" action="#" class="form_5 jqtransformdone" method="post">
+                                    <div>
+                                        <div class="radio">
+                                            <div class="wrapper">
+                                                <span class="jqTransformRadioWrapper"><a href="#" class="jqTransformRadio jqTransformChecked" rel="name1"></a>
+                                                    <input type="radio" name="name1" checked="" class="jqTransformHidden"></span>
+                                                <span class="left">Precios Bajas</span>
+                                                <span class="jqTransformRadioWrapper"><a href="#" class="jqTransformRadio" rel="name1"></a>
+                                                    <input type="radio" name="name1" class="jqTransformHidden"></span>
+                                                <span class="left">Mostrar Precios</span>
+                                            </div>
+                                        </div>
+                                        <div class="pad">
+                                            <div class="wrapper under">
+                                                <div class="col1">
+                                                    <div class="row">
+                                                        <span class="left">Desde</span>
+                                                        <div class="jqTransformInputWrapper jqTransformSafari" style="width: 210px;">
+                                                            <div class="jqTransformInputInner">
+                                                                <div>
+                                                                    <input type="text" class="input jqtranformdone jqTransformInput" style="width: 144px;">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <a href="#" class="help"></a>
+                                                    </div>
+                                                    <div class="row">
+                                                        <span class="left">Hasta</span>
+                                                        <div class="jqTransformInputWrapper jqTransformSafari" style="width: 210px;">
+                                                            <div class="jqTransformInputInner">
+                                                                <div>
+                                                                    <input type="text" class="input jqtranformdone jqTransformInput" style="width: 144px;">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <a href="#" class="help"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="check_box">
+                                                    <span class="jqTransformCheckboxWrapper"><a href="#" class="jqTransformCheckbox"></a>
+                                                        <input type="checkbox" class="jqTransformHidden"></span>
+                                                    <span>One way</span><a href="#" class="help"></a>
+                                                </div>
+                                                <div class="check_box">
+                                                    <span class="jqTransformCheckboxWrapper"><a href="#" class="jqTransformCheckbox"></a>
+                                                        <input type="checkbox" class="jqTransformHidden"></span>
+                                                    <span>Vuelos Directos</span>
+                                                </div>
+                                            </div>
+                                            <div class="wrapper under">
+                                                <span class="left">Vuelos</span>
+                                                <div class="cols marg_right1">
+                                                    <h6>Vuelos de Ida</h6>
+                                                    <div class="row">
+                                                        <div class="jqTransformInputWrapper jqTransformSafari" style="width: 210px;">
+                                                            <div class="jqTransformInputInner">
+                                                                <div>
+                                                                    <input type="text" class="input1 jqtranformdone jqTransformInput" value="03.05.2011" onblur="if(this.value=='') this.value='03.05.2011'" onfocus="if(this.value =='03.05.2011' ) this.value=''" style="width: 98px;">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="jqTransformInputWrapper jqTransformSafari" style="width: 210px;">
+                                                            <div class="jqTransformInputInner">
+                                                                <div>
+                                                                    <input type="text" class="input1 jqtranformdone jqTransformInput" value="+/- 0 Days" onblur="if(this.value=='') this.value='+/- 0 Days'" onfocus="if(this.value =='+/- 0 Days' ) this.value=''" style="width: 98px;">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="marg_top1">
+                                                        <div class="select1">
+                                                            <a href="#" class="marker_left"></a>
+                                                            <div class="jqTransformSelectWrapper" style="z-index: 10; width: 121px;">
+                                                                <div><span style="width: 69px;">May 11</span><a href="#" class="jqTransformSelectOpen"></a></div>
+                                                                <ul style="width: 119px; display: none; visibility: visible; height: 42px; overflow: hidden;">
+                                                                    <li><a href="#" index="0" class="selected">May 11</a></li>
+                                                                    <li><a href="#" index="1">Junio 11</a></li>
+                                                                    <li><a href="#" index="2">Julio 11</a></li>
+                                                                </ul>
+                                                                <select class="jqTransformHidden" style="">
+                                                                    <option>May 11</option>
+                                                                    <option>Junio 11</option>
+                                                                    <option>Julio 11</option>
+                                                                </select>
+                                                            </div>
+                                                            <a href="#" class="marker_right"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="calendar">
+                                                        <ul class="thead">
+                                                            <li>Luns</li>
+                                                            <li>Marts</li>
+                                                            <li>Miercls</li>
+                                                            <li>Juvs</li>
+                                                            <li>Virns</li>
+                                                            <li>Sabd</li>
+                                                            <li>Domgo</li>
+                                                        </ul>
+                                                        <ul class="tbody">
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#">1</a></li>
+                                                            <li><a href="#">2</a></li>
+                                                            <li><a href="#">3</a></li>
+                                                            <li><a href="#">4</a></li>
+                                                            <li><a href="#" class="active">5</a></li>
+                                                            <li><a href="#">6</a></li>
+                                                            <li><a href="#">7</a></li>
+                                                            <li><a href="#">8</a></li>
+                                                            <li><a href="#">9</a></li>
+                                                            <li><a href="#">10</a></li>
+                                                            <li><a href="#">11</a></li>
+                                                            <li><a href="#">12</a></li>
+                                                            <li><a href="#">13</a></li>
+                                                            <li><a href="#">14</a></li>
+                                                            <li><a href="#">15</a></li>
+                                                            <li><a href="#">16</a></li>
+                                                            <li><a href="#">17</a></li>
+                                                            <li><a href="#">18</a></li>
+                                                            <li><a href="#">19</a></li>
+                                                            <li><a href="#">20</a></li>
+                                                            <li><a href="#">21</a></li>
+                                                            <li><a href="#">22</a></li>
+                                                            <li><a href="#">23</a></li>
+                                                            <li><a href="#">24</a></li>
+                                                            <li><a href="#">25</a></li>
+                                                            <li><a href="#">26</a></li>
+                                                            <li><a href="#">27</a></li>
+                                                            <li><a href="#">28</a></li>
+                                                            <li><a href="#">29</a></li>
+                                                            <li><a href="#">30</a></li>
+                                                            <li><a href="#">31</a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="cols">
+                                                    <h5>Vuelos de Ida</h5>
+                                                    <div class="row">
+                                                        <div class="jqTransformInputWrapper jqTransformSafari" style="width: 210px;">
+                                                            <div class="jqTransformInputInner">
+                                                                <div>
+                                                                    <input type="text" class="input1 jqtranformdone jqTransformInput" value="03.05.2011" onblur="if(this.value=='') this.value='03.05.2011'" onfocus="if(this.value =='03.05.2011' ) this.value=''" style="width: 98px;">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="jqTransformInputWrapper jqTransformSafari" style="width: 210px;">
+                                                            <div class="jqTransformInputInner">
+                                                                <div>
+                                                                    <input type="text" class="input1 jqtranformdone jqTransformInput" value="+/- 0 Days" onblur="if(this.value=='') this.value='+/- 0 Days'" onfocus="if(this.value =='+/- 0 Days' ) this.value=''" style="width: 98px;">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="marg_top1">
+                                                        <div class="select1">
+                                                            <a href="#" class="marker_left"></a>
+                                                            <div class="jqTransformSelectWrapper" style="z-index: 9; width: 121px;">
+                                                                <div><span style="width: 69px;">May 11</span><a href="#" class="jqTransformSelectOpen"></a></div>
+                                                                <ul style="width: 119px; display: none; visibility: visible; height: 42px; overflow: hidden;">
+                                                                    <li><a href="#" index="0" class="selected">May 11</a></li>
+                                                                    <li><a href="#" index="1">Junio 11</a></li>
+                                                                    <li><a href="#" index="2">Julio 11</a></li>
+                                                                </ul>
+                                                                <select class="jqTransformHidden" style="">
+                                                                    <option>May 11</option>
+                                                                    <option>Junio 11</option>
+                                                                    <option>Julio 11</option>
+                                                                </select>
+                                                            </div>
+                                                            <a href="#" class="marker_right"></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="calendar">
+                                                        <ul class="thead">
+                                                            <li>Luns</li>
+                                                            <li>Marts</li>
+                                                            <li>Miercls</li>
+                                                            <li>Juvs</li>
+                                                            <li>Virns</li>
+                                                            <li>Sabd</li>
+                                                            <li>Domgo</li>
+                                                        </ul>
+                                                        <ul class="tbody">
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#">1</a></li>
+                                                            <li><a href="#">2</a></li>
+                                                            <li><a href="#">3</a></li>
+                                                            <li><a href="#">4</a></li>
+                                                            <li><a href="#" class="active">5</a></li>
+                                                            <li><a href="#">6</a></li>
+                                                            <li><a href="#">7</a></li>
+                                                            <li><a href="#">8</a></li>
+                                                            <li><a href="#">9</a></li>
+                                                            <li><a href="#">10</a></li>
+                                                            <li><a href="#">11</a></li>
+                                                            <li><a href="#">12</a></li>
+                                                            <li><a href="#">13</a></li>
+                                                            <li><a href="#">14</a></li>
+                                                            <li><a href="#">15</a></li>
+                                                            <li><a href="#">16</a></li>
+                                                            <li><a href="#">17</a></li>
+                                                            <li><a href="#">18</a></li>
+                                                            <li><a href="#">19</a></li>
+                                                            <li><a href="#">20</a></li>
+                                                            <li><a href="#">21</a></li>
+                                                            <li><a href="#">22</a></li>
+                                                            <li><a href="#">23</a></li>
+                                                            <li><a href="#">24</a></li>
+                                                            <li><a href="#">25</a></li>
+                                                            <li><a href="#">26</a></li>
+                                                            <li><a href="#">27</a></li>
+                                                            <li><a href="#">28</a></li>
+                                                            <li><a href="#">29</a></li>
+                                                            <li><a href="#">30</a></li>
+                                                            <li><a href="#">31</a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                            <li><a href="#"></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="wrapper pad_bot1">
+                                                <span class="left">Pasageros</span>
+                                                <div class="cols marg_right1">
+                                                    <div class="row">
+                                                        <div class="jqTransformInputWrapper jqTransformSafari" style="width: 210px;">
+                                                            <div class="jqTransformInputInner">
+                                                                <div>
+                                                                    <input type="text" class="input2 jqtranformdone jqTransformInput" value="2" onblur="if(this.value=='') this.value='2'" onfocus="if(this.value =='2' ) this.value=''" style="width: 43px;">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <span class="left">Adultos</span> <a href="#" class="help"></a>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="jqTransformInputWrapper jqTransformSafari" style="width: 210px;">
+                                                            <div class="jqTransformInputInner">
+                                                                <div>
+                                                                    <input type="text" class="input2 jqtranformdone jqTransformInput" value="0" onblur="if(this.value=='') this.value='0'" onfocus="if(this.value =='0' ) this.value=''" style="width: 43px;">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <span class="left">Niños</span> <a href="#" class="help"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="cols">
+                                                    <div class="select1">
+                                                        <span class="left">Clases</span>
+                                                        <div class="jqTransformSelectWrapper" style="z-index: 8; width: 121px;">
+                                                            <div><span style="width: 78px;">Economico</span><a href="#" class="jqTransformSelectOpen"></a></div>
+                                                            <ul style="width: 119px; display: none; visibility: visible; height: 14px; overflow: hidden;">
+                                                                <li><a href="#" index="0" class="selected">Economico</a></li>
+                                                            </ul>
+                                                            <select class="jqTransformHidden" style="">
+                                                                <option>Economico</option>
+                                                            </select>
+                                                        </div>
+                                                        <a href="#" class="help"></a>
+                                                    </div>
+                                                    <div class="select1">
+                                                        <span class="left">Aerolinea</span>
+                                                        <div class="jqTransformSelectWrapper" style="z-index: 7; width: 121px;">
+                                                            <div><span style="width: 66px;">Aerolinea</span><a href="#" class="jqTransformSelectOpen"></a></div>
+                                                            <ul style="width: 119px; display: none; visibility: visible; height: 14px; overflow: hidden;">
+                                                                <li><a href="#" index="0" class="selected">Aeirolinea</a></li>
+                                                            </ul>
+                                                            <select class="jqTransformHidden" style="">
+                                                                <option>Aerolinea</option>
+                                                            </select>
+                                                        </div>
+                                                        <a href="#" class="help"></a>
+                                                    </div>
+                                                </div>
+                                                <span class="right relative"><a href="#" class="button1"><strong>Buscar</strong></a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <footer>
+            <div class="wrapper">
+                <ul id="icons">
+                    <li><a href="#" class="normaltip">
+                        <img src="../../Contenido/Imagenes/icon1.jpg" alt=""></a></li>
+                    <li><a href="#" class="normaltip">
+                        <img src="../../Contenido/Imagenes/icon2.jpg" alt=""></a></li>
+                    <li><a href="#" class="normaltip">
+                        <img src="../../Contenido/Imagenes/icon3.jpg" alt=""></a></li>
+                    <li><a href="#" class="normaltip">
+                        <img src="../../Contenido/Imagenes/icon4.jpg" alt=""></a></li>
+                    <li><a href="#" class="normaltip">
+                        <img src="../../Contenido/Imagenes/icon5.jpg" alt=""></a></li>
+                    <li><a href="#" class="normaltip">
+                        <img src="../../Contenido/Imagenes/icon6.jpg" alt=""></a></li>
+                </ul>
+                <div class="links">
+                    Copyright © <a href="#">Domain Name</a> All Rights Reserved<br>
+                    Design by <a target="_blank" href="http://www.templatemonster.com/">TemplateMonster.com</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript">Cufon.now();</script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $('.form_5').jqTransform({
+                imgPath: 'jqtransformplugin/img/'
+            });
+        });
+        $(document).ready(function () {
+            tabs2.init();
+        });
+    </script>
+</body>
+</html>

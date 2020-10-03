@@ -1,0 +1,168 @@
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\ProyectoAerolinea.dll.config
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\ProyectoAerolinea.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\ProyectoAerolinea.pdb
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\csc.exe
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\csc.exe.config
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\csc.rsp
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\csi.exe
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\csi.exe.config
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\csi.rsp
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\System.AppContext.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\System.Console.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\System.IO.Compression.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\System.Security.Claims.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\System.ValueTuple.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\vbc.exe
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\vbc.exe.config
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\vbc.rsp
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\VBCSCompiler.exe
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Viviana\source\repos\ProyectoAerolinea\obj\Debug\ProyectoAerolinea.csproj.CoreCompileInputs.cache
+C:\Users\Viviana\source\repos\ProyectoAerolinea\obj\Debug\ProyectoAerolinea.csproj.CopyComplete
+C:\Users\Viviana\source\repos\ProyectoAerolinea\obj\Debug\ProyectoAerolinea.dll
+C:\Users\Viviana\source\repos\ProyectoAerolinea\obj\Debug\ProyectoAerolinea.pdb
+C:\Users\Viviana\source\repos\ProyectoAerolinea\obj\Debug\ProyectoAerolinea.csprojAssemblyReference.cache
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\ProyectoAerolinea.dll.config
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\ProyectoAerolinea.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\ProyectoAerolinea.pdb
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\csc.exe
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\csc.exe.config
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\csc.rsp
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\csi.exe
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\csi.exe.config
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\csi.rsp
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\System.AppContext.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\System.Console.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\System.IO.Compression.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\System.Security.Claims.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\System.ValueTuple.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\vbc.exe
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\vbc.exe.config
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\vbc.rsp
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\VBCSCompiler.exe
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\obj\Debug\ProyectoAerolinea.csprojAssemblyReference.cache
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\obj\Debug\ProyectoAerolinea.csproj.CoreCompileInputs.cache
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\obj\Debug\ProyectoAerolinea.csproj.CopyComplete
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\obj\Debug\ProyectoAerolinea.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\ProyectoAerolinea\obj\Debug\ProyectoAerolinea.pdb
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\ProyectoAerolinea.dll.config
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\ProyectoAerolinea.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\ProyectoAerolinea.pdb
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\csc.exe
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\csc.exe.config
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\csc.rsp
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\csi.exe
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\csi.exe.config
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\csi.rsp
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\System.AppContext.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\System.Console.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\System.IO.Compression.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\System.Security.Claims.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\System.ValueTuple.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\vbc.exe
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\vbc.exe.config
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\vbc.rsp
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\VBCSCompiler.exe
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\obj\Debug\ProyectoAerolinea.csprojAssemblyReference.cache
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\obj\Debug\ProyectoAerolinea.csproj.CoreCompileInputs.cache
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\obj\Debug\ProyectoAerolinea.csproj.CopyComplete
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\obj\Debug\ProyectoAerolinea.dll
+C:\Users\Xinia Aguilar\Documents\UNA- ~Diego\Progra 3\AppAereolinea\AppAereo\ProyectoAerolinea\obj\Debug\ProyectoAerolinea.pdb

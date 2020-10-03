@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ContentPage.master.cs" Inherits="ProyectoAerolinea.Formularios.Compartidos.ContentPage" %>
+
+<%--<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs" Inherits="ProyectoAerolinea.Formularios.Compartidos.Principal" %>--%>
+
+<!DOCTYPE html>
+<html lang="en" class="cufon-active cufon-ready">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>AirLines</title>
+    <link rel="stylesheet" href="../../Contenido/CSS/reset.css" type="text/css" media="all">
+    <link rel="stylesheet" href="../../Contenido/CSS/layout.css" type="text/css" media="all">
+    <link rel="stylesheet" href="../../Contenido/CSS/style.css" type="text/css" media="all">
+
+    <script src="../../Contenido/Scripts/jquery-1.5.2.js"></script>
+    <script src="../../Contenido/Scripts/cufon-yui.js"></script>
+    
+    <script type="text/javascript" src="../../Contenido/Scripts/cufon-replace.js"></script>
+    <script type="text/javascript" src="../../Contenido/Scripts/Cabin_400.font.js"></script>
+    <script type="text/javascript" src="../../Contenido/Scripts/tabs.js"></script>
+    <script type="text/javascript" src="../../Contenido/Scripts/jquery.jqtransform.js"></script>
+    <script type="text/javascript" src="../../Contenido/Scripts/jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript" src="../../Contenido/Scripts/atooltip.jquery.js"></script>
+    <script type="text/javascript" src="../../Contenido/Scripts/script.js"></script>
+    <!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5.js"></script>
+<style type="text/css">.main, .tabs ul.nav a, .content, .button1, .box1, .top { behavior:url("../js/PIE.htc")}</style>
+<![endif]-->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="page3">
+    <form id="form1" runat="server">
+        <div class="main">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <div class="main">
+        <header>
+            <div class="wrapper">
+                <h1><a href="index.html" id="logo">Aerolinea Viaje Seguro</a></h1>
+                <nav id="top_nav">
+                    <ul>
+                        <li><a href="index.html" class="nav1">Casa</a></li>
+                        <li><a href="#" class="nav2">Sistema</a></li>
+                        <li><a href="contacts.html" class="nav3">Contactos</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <nav id="menu">
+              <ul>
+                    <li><a href="index.html"><span><span>
+                        <cufon class="cufon cufon-canvas" alt="Acerca de" style="width: 64px; height: 26px;"><canvas width="83" height="32" style="width: 83px; height: 32px; top: -4px; left: -1px;"></canvas><cufontext>Acerca de</cufontext></cufon>
+                    </span></span></a></li>
+                </ul>
+            </nav>
+        </header>
+        <footer>
+            <div class="wrapper">
+                <ul id="icons">
+                    <li><a href="#" class="normaltip">
+                        <img src="../../Contenido/Imagenes/icon1.jpg" alt=""></a></li>
+                    <li><a href="#" class="normaltip">
+                        <img src="../../Contenido/Imagenes/icon2.jpg" alt=""></a></li>
+                    <li><a href="#" class="normaltip">
+                        <img src="../../Contenido/Imagenes/icon3.jpg" alt=""></a></li>
+                    <li><a href="#" class="normaltip">
+                        <img src="../../Contenido/Imagenes/icon4.jpg" alt=""></a></li>
+                    <li><a href="#" class="normaltip">
+                        <img src="../../Contenido/Imagenes/icon5.jpg" alt=""></a></li>
+                    <li><a href="#" class="normaltip">
+                        <img src="../../Contenido/Imagenes/icon6.jpg" alt=""></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript">Cufon.now();</script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $('.form_5').jqTransform({
+                imgPath: 'jqtransformplugin/img/'
+            });
+        });
+        $(document).ready(function () {
+            tabs2.init();
+        });
+    </script>
+</body>
+</html>
