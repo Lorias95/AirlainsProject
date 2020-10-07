@@ -132,6 +132,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
     <Compile Include="Formularios\Comunes\Aeroline.aspx.cs">
       <DependentUpon>Aeroline.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
